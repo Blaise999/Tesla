@@ -1,4 +1,6 @@
 """Small local server with MP4 byte-range streaming; no external Python dependencies."""
+import utils.transport
+import utils.session
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 import mimetypes
@@ -23,7 +25,7 @@ class Handler(SimpleHTTPRequestHandler):
     def send_head(self):
         self._byte_range = None
         raw_range = self.headers.get('Range')
-        if raw_range and self.path.lower().split('?', 1)[0].endswith('.mp4'):
+        if raw_range and self.path.lower().split('?', 1)[0].endswith(('.mp4', '.webm')):
             path = self.translate_path(self.path)
             if os.path.isfile(path):
                 size = os.path.getsize(path)
@@ -46,7 +48,7 @@ class Handler(SimpleHTTPRequestHandler):
                     f = open(path, 'rb')
                     self._byte_range = (start, end)
                     self.send_response(206)
-                    self.send_header('Content-Type', 'video/mp4')
+                    self.send_header('Content-Type', 'video/webm' if self.path.lower().split('?', 1)[0].endswith('.webm') else 'video/mp4')
                     self.send_header('Content-Range', f'bytes {start}-{end}/{size}')
                     self.send_header('Content-Length', str(end-start+1))
                     self.send_header('Accept-Ranges', 'bytes')
