@@ -1,0 +1,120 @@
+{
+  "Vehicles": [
+    {
+      "label": "Model Y",
+      "path": "/modely/",
+      "image": "/media/Mega-Menu-Vehicles-Model-Y-2-v3-s.webp"
+    },
+    {
+      "label": "Model 3",
+      "path": "/model3/",
+      "image": "/media/Mega-Menu-Vehicles-Model-3-APAC-LHD-s.webp"
+    },
+    {
+      "label": "Cybertruck",
+      "path": "/cybertruck/",
+      "image": "/media/Mega-Menu-Vehicles-Cybertruck-1x-s.webp"
+    },
+    {
+      "label": "Model S",
+      "path": "/models/",
+      "image": "/media/Homepage-Card-Model-3-Desktop-US_PR_MX-s.webp"
+    },
+    {
+      "label": "Model X",
+      "path": "/modelx/",
+      "image": "/media/Homepage-Vehicle-Card-Model-Y-Desktop-US-Snow-s.webp"
+    },
+    {
+      "label": "Roadster",
+      "path": "/roadster/",
+      "image": "/media/Mega-Menu-Roadster-s.webp"
+    },
+    {
+      "label": "Semi",
+      "path": "/semi/",
+      "image": "/media/Mega-Menu-Semi-s.webp"
+    }
+  ],
+  "Energy": [
+    {
+      "label": "Solar Panels",
+      "path": "/solarpanels/",
+      "image": "/media/Mega-Menu-Energy-Solar-Panels-s.webp"
+    },
+    {
+      "label": "Powerwall",
+      "path": "/powerwall/",
+      "image": "/media/Mega-Menu-Energy-Powerwall-US-s.webp"
+    },
+    {
+      "label": "Megapack",
+      "path": "/megapack/",
+      "image": "/media/Mega-Menu-Energy-Megapack-s.webp"
+    }
+  ],
+  "Charging": [
+    {
+      "label": "Home Charging",
+      "path": "/home-charging/",
+      "image": "/media/Mega-Menu-Charging-Home-Charging-s.webp"
+    },
+    {
+      "label": "Supercharging",
+      "path": "/supercharger/",
+      "image": "/media/Mega-Menu-Charging-Supercharging-NA-s.webp"
+    },
+    {
+      "label": "Charging for Business",
+      "path": "/charging-partners/",
+      "image": "/media/Mega-Menu-Charging-Charging-for-Business-s.webp"
+    },
+    {
+      "label": "Supercharger for Business",
+      "path": "/supercharger-for-business/",
+      "image": "/media/Mega-Menu-Charging-Supercharger-For-Business-s.webp"
+    },
+    {
+      "label": "Semi Charging",
+      "path": "/semi-charging-for-business/",
+      "image": "/media/Mega-Menu-Charging-Semi-Charging-For-Business-s.webp"
+    },
+    {
+      "label": "Wall Connector for Business",
+      "path": "/commercial-wall-connector/",
+      "image": "/media/WCforBusinesses-Hero-Desktop-v2-s.webp"
+    }
+  ],
+  "Discover": [
+    {
+      "label": "Robotaxi",
+      "path": "/robotaxi/",
+      "image": "/media/Mega-Menu-Robotaxi-s.webp"
+    },
+    {
+      "label": "Full Self-Driving",
+      "path": "/fsd/",
+      "image": "/media/Mega-Menu-Vehicles-FSD-s.webp"
+    },
+    {
+      "label": "Features",
+      "path": "/features/",
+      "image": "/media/Features-Entertainment-Hero-Desktop-Global-Poster-s.webp"
+    },
+    {
+      "label": "Current Offers",
+      "path": "/current-offers/",
+      "image": "/media/Homepage-Grid-Current-Offers-All-Devices-s.webp"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact/",
+      "image": "/media/Get-Updates-Desktop-Mobile-Global-s.webp"
+    },
+    {
+      "label": "Legal",
+      "path": "/about/legal/",
+      "image": "/media/Desktop_Privacy_Legal-94993efb-s.webp"
+    }
+  ]
+}
