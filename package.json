@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "python server.py",
+    "dev": "node init && python server.py",
     "preview": "python server.py"
   },
   "description": "Local multi-page website reconstruction from user-supplied captures"
